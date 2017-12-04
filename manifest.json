@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "DBWorld Jobs",
+    "description": "Only shows job annoncements in DBWorld.",
+    "version": "1.0",
+    "icons": {
+        "16": "dbworld.ico"
+    },
+
+    "content_scripts": [{
+        "matches": ["https://research.cs.wisc.edu/dbworld/browse.html"],
+        "js": ["dbjobs.js"]
+    }],
+
+    "permissions": ["https://research.cs.wisc.edu/dbworld/browse.html"]
+}
