@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "DBWorld Jobs",
-    "description": "Only shows job annoncements in DBWorld.",
+    "description": "Only shows job announcements in DBWorld.",
     "version": "1.0",
     "icons": {
         "16": "dbworld.ico"
